@@ -1,14 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import ChatList from './src/screens/Chat/ChatList';
-import Chat from './src/screens/Chat/Chat';
+
+import Login from './src/screens/Auth/Login';
+import Register from './src/screens/Auth/Register'
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hayya A'las-salah</Text>
-      <ChatList />
-      <Chat />
+      
+      <Register />
+      <Login />
       <StatusBar style="auto" />
     </View>
   );

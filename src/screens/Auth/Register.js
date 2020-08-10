@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 
 export default () => {
   return (
     <View>
-      <Text>Chat Screen</Text>
+      <Text>Register Screen</Text>
     </View>
   );
 }
